@@ -3,7 +3,82 @@
     padding: 0;
 }
 
-.headerOne{
-    background-color: red;
+* {
+    margin: 0;
+    padding: 0;
+}
 
+body {
+    background-image: linear-gradient( to right,#fab699,#ffa5bd,#eea8fb);
+}
+
+header>h1 {
+    display: grid;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 500%;
+    padding: 10%;
+    text-align: center;
+}
+
+.presentacion {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.texto__presentacion {
+    display: grid;
+    text-align: center;
+    padding: 10%;
+    font-size: x-large;
+}
+
+.avatar {
+    display: grid;
+    height: 400px;
+    width: 400px;
+    margin-left: 20%;
+}
+
+.subtitulo {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    margin-top: 30px;
+}
+
+.tecnologias {
+    padding-top: 150px;
+    width: 100%;
+    text-align: center;
+    display: flexbox;
+    transition: all 0.3s;
+}
+
+  .tecnologias :hover{
+    transform: scale(1.3) translateY(-1%) ;
+  }
+    
+
+.tecn_html {
+    width: 15%;
+    height: 15%;
+    margin: 10px;
+}
+
+.tecn_css {
+    width: 15%;
+    height: 15%;
+    margin: 10px;
+}
+
+.tecn_js {
+    width: 15%;
+    height: 15%;
+    margin: 10px;
+}
+
+.tecn_github {
+    width: 15%;
+    height: 15%;
+    margin: 10px;
 }
