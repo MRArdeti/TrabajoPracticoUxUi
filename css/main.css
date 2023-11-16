@@ -12,6 +12,28 @@ body {
     background-image: linear-gradient( to right,#fab699,#ffa5bd,#eea8fb);
 }
 
+header .header-icons-container {
+    width: 100%;
+    height: 50px;
+    display: grid;
+}
+
+header .header-icons-container .icons {
+    width: 50px;
+    height: auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    justify-self: end;
+    margin-right: 50px;
+    text-decoration: none;
+
+}
+
+header .icons span {
+    color: white;
+}
+
 header>h1 {
     display: grid;
     font-family: 'Times New Roman', Times, serif;
@@ -39,11 +61,27 @@ header>h1 {
     margin-left: 20%;
 }
 
+
+.content_text {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 70px;
+    font-size: 50px;
+}
+
+.content {
+    display: flex;
+    padding: 200px;
+    border-radius: 30%;
+    margin: 0 auto;
+    background-color: rgba(235, 240, 201, 0.849);
+}
+
 .subtitulo {
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: medium;
-    margin-top: 30px;
+    font-size: larger;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 40px;
 }
 
 .tecnologias {
@@ -82,3 +120,4 @@ header>h1 {
     height: 15%;
     margin: 10px;
 }
+
